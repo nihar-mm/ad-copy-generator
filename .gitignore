@@ -1,0 +1,86 @@
+# Environment variables (contains API keys)
+.env
+.env.local
+.env.backup
+
+# Virtual environments
+.venv/
+venv/
+server/.venv/
+server/venv/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+server/dev.db
+
+# Node.js
+node_modules/
+server/node_modules/
+server/node-v18.17.0-darwin-x64/
+server/node.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs
+*.log
+backend.log
+frontend.log
+
+# Uploads and data
+uploads/
+server/uploads/
+_data/
+server/_data/
+
+# Test files (temporary)
+test_*.py
+test_*.png
+test_sale_image.png
+tesseract-mac.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ChromaDB
+chroma_db/
+server/chroma_db/
+
+# Temporary files
+*.tmp
+*.temp
+
