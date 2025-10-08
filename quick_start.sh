@@ -73,5 +73,6 @@ echo "  ./run_backend.sh    # Terminal 1"
 echo "  ./run_frontend.sh   # Terminal 2"
 echo ""
 echo "⚠️  Note: Some features may not work without full dependencies"
-echo "   Run ./setup_mac_no_sudo.sh for complete setup"
+echo "   Run ./setup_mac.sh for complete setup"
+
 
